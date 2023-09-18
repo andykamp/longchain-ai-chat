@@ -46,6 +46,9 @@ Follow the steps outlined in the [quick start guide](https://vercel.com/docs/sto
 
 Remember to update your environment variables (`KV_URL`, `KV_REST_API_URL`, `KV_REST_API_TOKEN`, `KV_REST_API_READ_ONLY_TOKEN`) in the `.env` file with the appropriate credentials provided during the KV database setup.
 
+## Register a oauth application
+- vercel --prod to deploy to the url
+
 
 ## Running locally
 
@@ -63,6 +66,8 @@ pnpm dev
 ```
 
 Your app template should now be running on [localhost:3000](http://localhost:3000/).
+
+
 
 ## Authors
 
